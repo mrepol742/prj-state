@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="popup.js"></script>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div>
+      <h1>Facebook Cookies</h1>
+      <p>By <a href="https://mrepol742.github.io" target="_blank">Melvin Jones Repol</a></p>
+      <textarea id="cookie" readonly></textarea>
+      <button id="copy">Copy</button>
+    </div>
+    <script>
+      copy.onclick = function () {
+        cookie.select()
+        document.execCommand("copy");
+      };
+    </script>
+</body>
+</html>

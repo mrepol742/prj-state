@@ -11,7 +11,6 @@ window.onload = function () {
             creation: new Date().toISOString(),
             lastAccessed: new Date().toISOString()
         }));
-        cookie.innerText = JSON.stringify(cookie_m, null, 4);
-        console.log(JSON.stringify(cookie_m, null, 4))
+        cookie.innerText = JSON.stringify(cookie_m);
     });
 }

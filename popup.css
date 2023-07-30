@@ -49,7 +49,6 @@ textarea {
     resize: none;
     border: none;
     outline: none;
-    white-space: pre-wrap; 
 }
 
 ::-webkit-scrollbar {

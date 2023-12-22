@@ -22,6 +22,18 @@ body {
     padding: 5px;
 }
 
+#copyb64, #logout {
+    background-color: transparent;
+    border: none;
+    transition: all 0.5s ease;
+    margin-top: 5px;
+}
+
+#copyb64:hover, #logout:hover {
+    color:brown;
+    transition: all 0.5s ease;
+}
+
 #copy {
     background-color: #2e475d;
     width: 100%;
@@ -36,7 +48,7 @@ body {
 #copy:hover {
     background-color: #fff;
     border-color: #2e475d;
-    border-width: 0.5px;
+    border-width: 5px;
     border-style: solid;
     color: #2e475d;
     font-size: 15px;
@@ -49,7 +61,7 @@ textarea {
     resize: none;
     border: none;
     outline: none;
-    white-space: pre-wrap; 
+    white-space: pre-line !important;
 }
 
 ::-webkit-scrollbar {

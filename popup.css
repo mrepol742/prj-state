@@ -61,7 +61,6 @@ textarea {
     resize: none;
     border: none;
     outline: none;
-    white-space: pre-line !important;
 }
 
 ::-webkit-scrollbar {

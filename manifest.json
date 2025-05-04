@@ -2,13 +2,15 @@
   "name": "PRJ-STATE",
   "version": "1.0",
   "description": "",
+  "manifest_version": 3,
   "permissions": [
     "cookies",
-    "activeTab",
+    "activeTab"
+  ],
+  "host_permissions": [
     "https://*.facebook.com/"
   ],
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
-  },
-  "manifest_version": 2
+  }
 }
